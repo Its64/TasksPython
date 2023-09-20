@@ -1,0 +1,156 @@
+{
+  "var": {
+    "0": {
+      "task": "Create a variable 'var' that stores the number 5",
+      "test1": {
+        "if": "True"
+      },
+      "test2": {
+        "if": "var == 5"
+      },
+      "test3": {
+        "if": "True"
+      }
+    },
+    "1": {
+      "task": "Create a variable 'a' with the value 1 and a variable 'b' with the value 8, and then create a variable 'c' with the sum of these digits",
+      "test1": {
+        "if": "a == 1"
+      },
+      "test2": {
+        "if": "b == 8"
+      },
+      "test3": {
+        "if": "c == 9"
+      }
+    },
+    "2": {
+      "task": "Create a variable n with the value 5, then make a variable v with the value n * 18",
+      "test1": {
+        "if": "n == 5"
+      },
+      "test2": {
+        "if": "v == n*18"
+      },
+      "test3": {
+        "if": "True"
+      }
+    }
+  },
+  "func": {
+    "0": {
+      "task": "Create a 'sum' function that takes 2 arguments and returns the sum of those arguments",
+      "test1": {
+        "if": "sum(1,2) == 3"
+      },
+      "test2": {
+        "if": "sum(12,31) == 43"
+      },
+      "test3": {
+        "if": "sum(123,17) == 140"
+      }
+    },
+    "1": {
+      "task": "Write a function 'sumstr' that takes 2 strings and concatenates them into 1. Example: sumstr('ab', 'bc') - 'abbc'",
+      "test1": {
+        "if": "sumstr('a','b') == 'ab'"
+      },
+      "test2": {
+        "if": "sumstr('afff','bss') == 'afffbss'"
+      },
+      "test3": {
+        "if": "sumstr('123','cssdb') == '123cssdb'"
+      }
+    }
+  },
+  "if": {
+    "0": {
+      "task": "Write a function 'is_five' that takes an argument and returns True if the argument is 5 or False if it is not",
+      "test1": {
+        "if": "is_five(1) == False"
+      },
+      "test2": {
+        "if": "is_five(5) == True"
+      },
+      "test3": {
+        "if": "is_five(123) == False"
+      }
+    },
+    "1": {
+      "task": "Write a function 'is_equal' that takes arguments a and b (numbers) and returns True if they are equal, or False if they are not",
+      "test1": {
+        "if": "is_equal(13,2) == False"
+      },
+      "test2": {
+        "if": "is_equal(12,12) == True"
+      },
+      "test3": {
+        "if": "is_equal(12,157) == False"
+      }
+    }
+  },
+  "arr": {
+    "0": {
+      "task": "Create a list 'a' that includes the numbers 1, 2, 5",
+      "test1": {
+        "if": "a[0] == 1"
+      },
+      "test2": {
+        "if": "a[1] == 2"
+      },
+      "test3": {
+        "if": "a[2] == 5"
+      }
+    },
+    "1": {
+      "task": "Write a function 'add' that takes 2 arguments: a list and an element, adds this element to the end of the list and returns the resulting list",
+      "test1": {
+        "if": "add([1, 2], 3) == [1,2,3]"
+      },
+      "test2": {
+        "if": "add([6, 3], 2) == [6,3,2]"
+      },
+      "test3": {
+        "if": "add([8, 2], 1) == [8,2,1]"
+      }
+    }
+  },
+  "while": {
+    "0": {
+      "task": "Write a 'to_n' function that returns a string with numbers from 1 to n (function argument) inclusive.",
+      "test1": {
+        "if": "to_n(5) == '12345'"
+      },
+      "test2": {
+        "if": "to_n(3) == '123'"
+      },
+      "test3": {
+        "if": "to_n(9) == '123456789'"
+      }
+    },
+    "1": {
+      "task": "Write a function func that takes a list and returns a string with all the elements of that list without spaces.",
+      "test1": {
+        "if": "func(['func', '2']) == 'func2'"
+      },
+      "test2": {
+        "if": "func(['4','3']) == '43'"
+      },
+      "test3": {
+        "if": "func(['14','0']) == '140'"
+      }
+    },
+    "2": {
+      "task": "Write a function 'less_five' that accepts a list. Return a list with all elements that are less than 5.",
+      "test1": {
+        "if": "less_five([1,4,8,9,11,45]) == [1,4]"
+      },
+      "test2": {
+        "if": "less_five([4,7,8,2,141,4]) == [4,2,4]"
+      },
+      "test3": {
+        "if": "less_five([14,17,2,2,41,54]) == [2,2]"
+      }
+    }
+  }
+}

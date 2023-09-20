@@ -1,0 +1,44 @@
+{
+  "easy": {
+    "0": {
+      "question": "Make a function 'sum' that returns a sum of 2 arguments:",
+      "if": "sum(1,2) == 3",
+      "if2": "sum(4,2) == 6",
+      "if3": "sum(123,110) == 233"
+    },
+    "1": {
+      "question": "Make a function 'sumstr' that returns a sum of strings. Example: sumstr('string1', 'string2') = 'string1string2':",
+      "if": "sumstr('string1', 'string2') == 'string1string2'",
+      "if2": "sumstr('str', 's') == 'strs'",
+      "if3": "sumstr('strgg', 'sgg') == 'strggsgg'"
+    }
+  },
+  "medium": {
+    "0": {
+      "question": "MMake a function 'sum' that returns a sum of 2 arguments:",
+      "if": "sum(1,2) == 3",
+      "if2": "sum(4,2) == 6",
+      "if3": "sum(123,110) == 233"
+    },
+    "1": {
+      "question": "Make a function 'sumstr' that returns a sum of strings. Example: sumstr('string1', 'string2') = 'string1string2':",
+      "if": "sumstr('string1', 'string2') == 'string1string2'",
+      "if2": "sumstr('str', 's') == 'strs'",
+      "if3": "sumstr('strgg', 'sgg') == 'strggsgg'"
+    }
+  },
+  "hard": {
+    "0": {
+      "question": "HMake a function 'sum' that returns a sum of 2 arguments:",
+      "if": "sum(1,2) == 3",
+      "if2": "sum(4,2) == 6",
+      "if3": "sum(123,110) == 233"
+    },
+    "1": {
+      "question": "Make a function 'sumstr' that returns a sum of strings. Example: sumstr('string1', 'string2') = 'string1string2':",
+      "if": "sumstr('string1', 'string2') == 'string1string2'",
+      "if2": "sumstr('str', 's') == 'strs'",
+      "if3": "sumstr('strgg', 'sgg') == 'strggsgg'"
+    }
+  }
+}
