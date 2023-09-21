@@ -35,6 +35,18 @@
       "test3": {
         "if": "True"
       }
+    },
+    "3": {
+      "task": "Write a 'format' function that takes name and age arguments and returns text in the format 'Name: {name}, age: {age}'",
+      "test1": {
+        "if": "format('ab', 34) == 'Name: ab, age: 34'"
+      },
+      "test2": {
+        "if": "format('a3bc', 124) == 'Name: a3bc, age: 124'"
+      },
+      "test3": {
+        "if": "format('22b', 9034) == 'Name: 22b, age: 9034'"
+      }
     }
   },
   "func": {
@@ -61,6 +73,30 @@
       "test3": {
         "if": "sumstr('123','cssdb') == '123cssdb'"
       }
+    },
+    "2": {
+      "task": "Write a function 'power_of' that takes two arguments, a number and a power, and returns the result of raising a number to the specified power.",
+      "test1": {
+        "if": "power_of(2,2) == 4"
+      },
+      "test2": {
+        "if": "power_of(4,2) == 16"
+      },
+      "test3": {
+        "if": "power_of(3,3) == 27"
+      }
+    },
+    "3": {
+      "task": "Write a function 'len_of' that takes a string as input and returns its length.",
+      "test1": {
+        "if": "len_of('Abcdd') == 5"
+      },
+      "test2": {
+        "if": "len_of('Benthddd') == 8"
+      },
+      "test3": {
+        "if": "len_of('vbfhcnd') == 8"
+      }
     }
   },
   "if": {
@@ -86,6 +122,30 @@
       },
       "test3": {
         "if": "is_equal(12,157) == False"
+      }
+    },
+    "2": {
+      "task": "Write a function 'is_letter' that checks whether a character is a letter/number and returns True/False accordingly.",
+      "test1": {
+        "if": "is_letter(4) == False"
+      },
+      "test2": {
+        "if": "is_letter('abc') == True"
+      },
+      "test3": {
+        "if": "is_letter(12) == False"
+      }
+    },
+    "3": {
+      "task": "Write a function 'is_even' that checks whether a number is even or odd and prints True if it is even and False if it is not.",
+      "test1": {
+        "if": "is_even(43) == False"
+      },
+      "test2": {
+        "if": "is_even(6) == True"
+      },
+      "test3": {
+        "if": "is_even(123) == False"
       }
     }
   },
@@ -150,6 +210,18 @@
       },
       "test3": {
         "if": "less_five([14,17,2,2,41,54]) == [2,2]"
+      }
+    },
+    "3": {
+      "task": "Write a function 'even_num' that takes a list and returns all even numbers in that list.",
+      "test1": {
+        "if": "even_num([1,4,8,9,11,45]) == [4,8]"
+      },
+      "test2": {
+        "if": "even_num([4,7,8,2,141,4]) == [4,8,2,4]"
+      },
+      "test3": {
+        "if": "even_num([14,17,2,2,41,54]) == [14,2,2,54]"
       }
     }
   }
